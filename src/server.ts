@@ -15,6 +15,6 @@ app.all("*", function (req, res, next) {
 app.use(express.json())
 app.use(routes);
 
-app.listen(process.env.PORT || 3333, ()=> {
+app.listen(process.env.PORT || 3033, ()=> {
   console.log("HTTP server running")
 })
